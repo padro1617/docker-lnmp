@@ -4,7 +4,7 @@
 # https://github.com/addcn/docker-lnmp.git
 #
 
-FROM mysql:5.7
+FROM registry.docker-cn.com/library/mysql:5.7
 MAINTAINER dodo <lhuibo@gmail.com>
 
 ENV TZ "Asia/Shanghai"
